@@ -44,7 +44,6 @@ class BookingReader:
             except Exception as error:
                 print(error)
                 print(url)
-                print("####################################")
                 continue
 
         return pd.DataFrame({'title': titles,
